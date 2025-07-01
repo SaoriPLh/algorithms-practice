@@ -22,7 +22,7 @@ def containsNearbyDuplicate(nums, k):
     #diccionario para guardar los indices ya que truve un error al pensar que el set tenia indices 
 
     indices = {}
-
+    #enumarete te da el valor de la posicion y el elemento de la lista en cada paso
     for i, numero in enumerate(nums):
         if numero in indices:
             if i -indices[numero]<= k:
