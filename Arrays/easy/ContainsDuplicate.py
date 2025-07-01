@@ -8,3 +8,6 @@ def containsDuplicate(array):
             return True
         vistos.add(n)
     return False
+
+
+
